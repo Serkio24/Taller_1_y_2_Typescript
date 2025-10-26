@@ -1,0 +1,77 @@
+/* Ejemplo de estilos personalizados */
+body {
+    background-color: #141519;
+    padding: 20px;
+}
+
+h1 {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h2{
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.table {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    color: #ffffff;
+}
+
+.form-group label {
+    color: #ffffff;
+}
+
+.serie-link {
+  color: #F47521;             
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* Ajustar tamaño de las imágenes del detalle */
+.card-img-top {
+    max-height: 300px;
+    object-fit: contain;
+    width: 100%;
+    background-color: #1a1a1a;
+}
+
+/* Opcional: limitar altura del card completo */
+#serie-detail {
+    max-height: 600px;
+    overflow-y: auto;
+    background-color: #454d55;
+    border: 1px solid #6c757d;
+}
+
+/* Estilos para el contenido del card */
+#serie-detail .card-body {
+    background-color: #454d55;
+    color: #ffffff;
+}
+
+#serie-detail .card-title {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+#serie-detail .card-text {
+    color: #ffffff;
+}
+
+#serie-detail .text-muted {
+    color: #b8bfc6 !important;
+}
+
+#serie-detail .card-link {
+    color: #F47521;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+#serie-detail .card-link:hover {
+    color: #ff8c42;
+    text-decoration: underline;
+}
