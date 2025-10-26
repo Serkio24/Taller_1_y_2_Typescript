@@ -9,7 +9,7 @@ renderSeriesInTable(dataSeries);
 getPromedioTemporadas(dataSeries);
 
 function renderSeriesInTable(series: Serie[]): void {
-  seriesTBody.innerHTML = ""; // limpiar por si acaso
+  seriesTBody.innerHTML = "";
   series.forEach((serie, i) => {
     const tr = document.createElement("tr");
     tr.innerHTML = `
